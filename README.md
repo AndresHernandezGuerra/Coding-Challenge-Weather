@@ -2,6 +2,11 @@
 
 This is a simple weather app that allows users to search for weather information of a city and view various weather attributes. The app displays the current temperature, weather description, and additional weather attributes such as feels like temperature, humidity, wind speed, and cloudiness.
 
+## *Important Note*
+
+Given that this is a public repository, the API key contained here has been disabled, which means you would need your own API Key to run this App properly. If you are someone evaluating this App, please contact the author, and I would be happy to temporarily activate the API Key.
+- I am aware that the best practice when it comes to sensitive data, such as API keys, the best practice is to store them in environment variables, or adding a 'config.json' file which would then be added to .gitignore and not be commited. However, for the purpose of this exercise, this was the simplest approach.
+
 ## Features
 
 - Search for weather information by entering a US city name.
