@@ -34,13 +34,14 @@ git clone https://github.com/AndresHernandezGuerra/Coding-Challenge-Weather.git
 ## Usage
 
 1. When the app is launched, you will see a search text field at the top to enter a US city name.
-2. Enter the name of a city in the search text field and press the "Return" key on the keyboard.
-3. The app will fetch weather data for the entered city and display the information on the screen.
-4. The main screen shows the city name, current temperature, weather description, and an icon representing the weather condition.
-5. Below the main information, you will find a collection view displaying additional weather attributes.
-6. You can toggle between Fahrenheit and Celsius temperature units by switching the temperature unit switch at the top-right corner of the screen.
-7. The collection view cells show various weather attributes such as feels like temperature, humidity, wind speed, and cloudiness.
-8. Scroll horizontally to view all the weather attributes in the collection view.
+2. The top right navigation button has been set as an "info" button, when clicked you will see the acceptable formats in which you can search a city's weather.
+3. Enter the name of a city, in any of the accepted formats, in the search text field and press the "Return" key on the keyboard. (Spaces are ignored, so you can add them without issue in your text)
+4. The app will fetch weather data for the entered city and display the information on the screen.
+5. The main screen shows the city name, current temperature, weather description, and an icon representing the weather condition.
+6. Below the main information, you will find a collection view displaying additional weather attributes.
+7. You can toggle between Fahrenheit and Celsius temperature units by switching the temperature unit switch at the top-right corner of the screen.
+8. The collection view cells show various weather attributes such as feels like temperature, humidity, wind speed, and cloudiness.
+9. Scroll horizontally to view all the weather attributes in the collection view.
 
 ## Dependencies
 
