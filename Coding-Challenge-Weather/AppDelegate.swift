@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Coding-Challenge-Weather
 //
-//  Created by Andres S. Hernandez G. on 5/29/23.
+//  Created by Andres S. Hernandez G. on 5/31/23.
 //
 
 import UIKit
@@ -10,10 +10,14 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UINavigationController(rootViewController: WeatherViewController())
+        window?.makeKeyAndVisible()
+                
         return true
     }
 
